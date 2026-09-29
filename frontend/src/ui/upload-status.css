@@ -1,0 +1,31 @@
+.upload-control{margin-top:4px}
+.upload-card{padding:13px;border:1px solid #e9ebef;border-radius:9px;background:#fff}
+.upload-card.error{border-color:#f0c9c9;background:#fffafa}
+.upload-card-head{display:flex;align-items:center;gap:10px;min-width:0}
+.upload-file-icon{width:34px;height:38px;flex:none;display:grid;place-items:center;border-radius:7px;background:#f1f0ff;color:#625ed4}
+.upload-file-copy{min-width:0;flex:1}
+.upload-file-copy strong,.upload-file-copy small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.upload-file-copy strong{font-size:10px;color:#39404c}
+.upload-file-copy small{font-size:9px;color:#969ca7;margin-top:4px}
+.upload-state{flex:none;padding:5px 8px;border-radius:20px;background:#f3f4f6;color:#777e8a;font-size:8px;font-weight:700}
+.upload-state.ready{background:#f1f0ff;color:#625ed4}
+.upload-state.uploading{background:#fff6e9;color:#ad7831}
+.upload-state.complete,.upload-state.uploaded{background:#e9f8f1;color:#32936d}
+.upload-remove{width:27px;height:27px;flex:none;display:grid;place-items:center;border:0;border-radius:6px;background:transparent;color:#9298a3;cursor:pointer}
+.upload-remove:hover{background:#f3f4f6;color:#454b55}
+.upload-progress{height:5px;margin-top:12px;border-radius:5px;background:#efeff4;overflow:hidden}
+.upload-progress span{display:block;height:100%;border-radius:inherit;background:#625ed4;transition:width .15s ease}
+.upload-issue{margin:10px 0 0;color:#a64848;font-size:9px;line-height:1.5}
+.upload-actions{display:flex;justify-content:flex-end;align-items:center;gap:9px;margin-top:14px}
+.upload-actions .primary{padding:9px 12px}
+.secondary-button{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:0 11px;border:1px solid #e7e8ed;border-radius:7px;background:#fff;color:#707785;font:600 10px 'DM Sans';cursor:pointer}
+.secondary-button:hover{background:#fafaff;border-color:#d9d7f7}
+.secondary-button input{display:none}
+.resume-file-status{display:flex;align-items:center;gap:10px;min-width:0;padding:10px 11px;margin:13px 0;border:1px solid #dcefe6;border-radius:8px;background:#f7fcf9}
+.resume-file-status-icon{width:31px;height:34px;flex:none;display:grid;place-items:center;border-radius:7px;background:#e8f6ef;color:#32936d}
+.resume-file-status-copy{min-width:0;flex:1}
+.resume-file-status-copy strong,.resume-file-status-copy small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.resume-file-status-copy strong{font-size:9px;color:#39404c}
+.resume-file-status-copy small{font-size:8px;color:#8d9691;margin-top:4px}
+.resume-uploaded-badge{display:flex;align-items:center;gap:4px;flex:none;padding:5px 7px;border-radius:20px;background:#e8f6ef;color:#32936d;font-size:8px;font-weight:700;white-space:nowrap}
+@media(max-width:650px){.upload-card-head{flex-wrap:wrap}.upload-state{margin-left:44px}.upload-actions{justify-content:stretch}.upload-actions>*{flex:1}.resume-file-status{flex-wrap:wrap}.resume-uploaded-badge{margin-left:41px}}
