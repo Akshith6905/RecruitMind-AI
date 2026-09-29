@@ -191,6 +191,7 @@ The current app has no server-side authentication or tenant isolation. Deploy on
 ## Medium technical article link: https://lnkd.in/dnZZmYGv
 ## Hindsight Github link: https://lnkd.in/dwFfmrUq
 ## Reddit article link: https://lnkd.in/dkaPNTrB
+## Live demo link: https://drive.google.com/file/d/1Syi6G_U2mdy147Jcrz4k802Ohl3DBSeP/view?usp=drive_link
 
 ## Project documentation
 
