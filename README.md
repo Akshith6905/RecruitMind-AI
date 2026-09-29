@@ -187,6 +187,11 @@ The current app has no server-side authentication or tenant isolation. Deploy on
 - Schema creation currently uses SQLAlchemy `create_all`; database migrations are not configured.
 - Do not use protected characteristics or infer them from resumes. Keep evaluations grounded in role-related evidence, and have a human recruiter review every recommendation.
 
+## Live Deployment: https://lnkd.in/d3ZNaG35
+## Medium technical article link: https://lnkd.in/dnZZmYGv
+## Hindsight Github link: https://lnkd.in/dwFfmrUq
+## Reddit article link: https://lnkd.in/dkaPNTrB
+
 ## Project documentation
 
 - [Architecture](docs/architecture.md)
